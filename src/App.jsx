@@ -1,7 +1,5 @@
 import { ChevronDown, FileText, Layers, Mail } from "lucide-react";
 
-
-
 import WordRotate from './components/word-rotate'
 import BoxReveal from './components/box-reveal'
 import './App.css'
@@ -138,24 +136,14 @@ function App() {
         <div className='space-y-4 pt-4'>
           <h1 className='text-4xl font-satoshi-medium text-white'>SQUAD</h1>
           <p className='font-satoshi-regular text-gray-300 text-lg'>I led the development of <a href='https://squad.net.ar' target="_blank" className='text-blue-400 underline'>SQUAD</a>, a PWA web app designed to help UNICEN university students create and find study groups. This personal project focused on improving student collaboration by offering a platform for group creation, chat, and resource sharing.</p>
+          <img src={assets.squad_banner} className='w-full rounded-lg' />
           <p className='font-satoshi-regular text-gray-300 text-lg'>The inspiration for <a href='https://squad.net.ar' target="_blank" className='text-blue-400 underline'>SQUAD</a> came from my desire to create something that could genuinely improve the quality of life for UNICEN students. I wanted to build a tool that made it easier for students to connect, collaborate, and study together, all while being intuitive and user-friendly. With this in mind, I developed SQUAD as a <span className='text-purple-400'>Progressive Web App (PWA)</span> using <span className='text-purple-400'>ReactJS</span>, <span className='text-purple-400'>TailwindCSS</span>, and <span className='text-purple-400'>Shadcn</span> for the frontend, ensuring a smooth and responsive user experience. For the backend, I built a <span className='text-purple-400'>Laravel API</span> to handle data efficiently and securely. The result is a platform that simplifies group creation and communication for students.</p>
-          <div className='flex flex-row space-x-6 flex-1'>
-            <img src={assets.squad_1} className='w-64 rounded-lg' />
-            <img src={assets.squad_2} className='w-64 rounded-lg' />
-            <img src={assets.squad_3} className='w-64 rounded-lg' />
-          </div>
         </div>
 
         <div className='space-y-4 pt-24'>
           <h1 className='text-4xl font-satoshi-medium text-white'>Ecobite</h1>
           <p className='font-satoshi-regular text-gray-300 text-lg'>I also led the development of Ecobite, a <span className='text-purple-400'>React Native</span> app designed for restaurants to sell their leftover food at a reduced price instead of discarding it. The app aims to minimize food waste while offering customers affordable meal options. By connecting restaurants with eco-conscious consumers, Ecobite promotes sustainability and helps businesses reduce waste in a simple, efficient way.</p>
-          <div className='flex flex-row space-x-6 flex-1'>
-            <img src={assets.ecobite_1} className='w-64 rounded-lg' />
-            <img src={assets.ecobite_2} className='w-64 rounded-lg' />
-            <img src={assets.ecobite_3} className='w-64 rounded-lg' />
-            <img src={assets.ecobite_4} className='w-64 rounded-lg' />
-            <img src={assets.ecobite_5} className='w-64 rounded-lg' />
-          </div>
+          <img src={assets.ecobite_banner} className='rounded-lg' />
         </div>
 
       </div>
