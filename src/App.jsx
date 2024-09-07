@@ -25,6 +25,10 @@ function App() {
       <div class="LayoutGrid"></div>
       <div class="LayoutNoise"></div>
 
+      <div className="absolute top-0 right-0 p-6">
+        <a href="https://portfolio-santibugnon86gmailcoms-projects.vercel.app/" className="text-white opacity-70 underline text-base font-satoshi-regular">Site too slow? Click here</a>
+      </div>
+
       <div className='items-center justify-center w-full h-screen flex flex-col' id='home'>
         <div className='flex flex-col space-y-6 -translate-y-8 w-[50vw]'>
 
@@ -37,7 +41,7 @@ function App() {
 
               <div className='flex flex-col space-y-2'>
 
-                <BoxReveal boxColor={"#5046e6"} duration={0.5}>
+                <BoxReveal boxColor={"#5046e6"} duration={0.5} className="py-2">
                   <h1 className='text-6xl text-white font-satoshi-bold'>I'm <span className="text-purple-500">Santiago Bugnón</span></h1>
                 </BoxReveal>
                 <BoxReveal boxColor={"#5046e6"} duration={0.5}>
