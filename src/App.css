@@ -151,10 +151,6 @@ body {
   }
 }
 
-
-
-
-
 .floating-text {
   animation: floatUpDown 4s ease-in-out infinite;
 }
