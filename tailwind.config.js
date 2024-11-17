@@ -7,11 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'akira': ['akira', 'sans-serif'],
-        'satoshi-regular': ['satoshi-regular', 'sans-serif'],
-        'satoshi-medium': ['satoshi-medium', 'sans-serif'],
-        'satoshi-bold': ['satoshi-bold', 'sans-serif'],
-        'satoshi-black': ['satoshi-black', 'sans-serif'],
+        'grotesque-display': ['Grotesque Display', 'sans-serif'],
+        'geist-mono': ['Geist mono', 'sans-serif'],
       },
       backgroundImage: {
         'gradient': 'linear-gradient(90deg, rgba(92,81,224,1) 0%, rgba(234,12,185,1) 100%)',

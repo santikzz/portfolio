@@ -6,9 +6,23 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
   scroll-behavior: smooth;
 }
 
+body{
+  background-color: #000000;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media(max-width: 1280px) {
+  body{
+    width: 100%;
+    overflow-x: hidden;
+  }
+}

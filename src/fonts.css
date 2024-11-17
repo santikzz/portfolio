@@ -1,24 +1,50 @@
-@font-face {
+/* @font-face {
   font-family: 'satoshi-regular';
-  src: url('/fonts/Satoshi-Regular.ttf') format('truetype');
+  src: url('/fonts/satoshi/Satoshi-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'satoshi-medium';
-  src: url('/fonts/Satoshi-Medium.ttf') format('truetype');
+  src: url('/fonts/satoshi/Satoshi-Medium.ttf') format('truetype');
 }
 
 @font-face {
-  src: url('/fonts/Satoshi-Bold.ttf') format('truetype');
+  src: url('/fonts/satoshi/Satoshi-Bold.ttf') format('truetype');
   font-family: 'satoshi-bold';
 }
 
 @font-face {
   font-family: 'satoshi-black';
-  src: url('/fonts/Satoshi-Black.ttf') format('truetype');
+  src: url('/fonts/satoshi/Satoshi-Black.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'akira';
   src: url('/fonts/akira.otf');
+}
+
+@font-face {
+  font-family: 'Grotesque';
+  src: url('/fonts/Grotesque-Black_v1.202.woff2') format("woff2"), url('/fonts/Grotesque-Black_v1.202.woff') format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: block
+} */
+
+@font-face {
+  font-family: 'Grotesque Display';
+  src: url('/fonts/GrotesqueDisplay-UltraBlackExtraExpanded.woff2') format("woff2"), url('/fonts/GrotesqueDisplay-UltraBlackExtraExpanded.woff') format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: block
+}
+
+/* @font-face {
+  font-family: 'Geist sans';
+  src: url('/fonts/GeistVF.woff2') format("woff2"), url('/fonts/GeistVF.woff') format("woff")
+} */
+
+@font-face {
+  font-family: 'Geist mono';
+  src: url('/fonts/GeistMonoVF.woff2') format("woff2"), url('/fonts/GeistMonoVF.woff') format("woff")
 }
