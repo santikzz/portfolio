@@ -9,6 +9,11 @@
   box-sizing: border-box;
 }
 
+*::selection{
+  background-color: #f97316;
+  color: #ffffff;
+}
+
 :root {
   scroll-behavior: smooth;
 }
