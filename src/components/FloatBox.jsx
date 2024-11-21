@@ -33,7 +33,7 @@ export default function FloatBox({ children, delay }) {
 
     return (
         <div
-            className="flex-1 md:border border-2 relative opacity-0 transition-all duration-600 ease-linear translate-y-24"
+            className="flex-1 md:border border-2 relative opacity-0 transition-all duration-1000 ease translate-y-24"
             ref={fadeInRef}
         >
             {children}

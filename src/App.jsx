@@ -8,6 +8,7 @@ import Aside from "./components/aside";
 import FloatBox from "./components/FloatBox";
 import MagnetBox from "./components/MagnetBox";
 import Header from "./components/Header";
+import { HyperText } from "./components/HyperText";
 
 function App() {
 
@@ -40,7 +41,14 @@ function App() {
                     className="flex flex-col gap-8 md:gap-3 flex-1"
                     force={10}
                 >
-                    <h2 id="name" className="transition-transform duration-200 ease-linear text-orange-500 font-grotesque-display text-4xl md:text-6xl glow">HI, I'M SANTIAGO<span className="blink">_</span></h2>
+                    {/* <h2 id="name" className="text-orange-500 font-grotesque-display text-4xl md:text-6xl glow">HI, I'M SANTIAGO<span className="blink">_</span></h2> */}
+                    <div className="flex flex-col">
+                        <HyperText text="HI, I'M" className="text-orange-500 font-grotesque-display text-4xl md:text-6xl glow" />
+                        <div className="flex flex-row">
+                            <HyperText text="SANTIAGO" className="text-orange-500 font-grotesque-display text-4xl md:text-6xl glow" />
+                            <h2 className="text-orange-500 font-grotesque-display text-4xl md:text-6xl blink glow">_</h2>
+                        </div>
+                    </div>
                     <p className="text-neutral-400 md:text-xl font-geist-mono">{"->"} I'm a <b className="text-neutral-300">Full Stack Developer</b> passionate about building scalable apps and seamless user experiences. I love tackling challenges and continuously learning to create exceptional digital solutions.</p>
                 </MagnetBox>
 
