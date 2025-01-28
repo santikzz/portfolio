@@ -45,6 +45,7 @@ export default function Header({ setAsideOpen }) {
                     <a href="#stack" className="text-white font-geist-mono hover:brightness-75 transition-all ease-linear duration-150 hover:underline">Stack</a>
                     <a href="#experience" className="text-white font-geist-mono hover:brightness-75 transition-all ease-linear duration-150 hover:underline">Experience</a>
                     <a href="#projects" className="text-white font-geist-mono hover:brightness-75 transition-all ease-linear duration-150 hover:underline">Projects</a>
+                    <a href="https://dev.to/santikzz" className="text-white font-geist-mono hover:brightness-75 transition-all ease-linear duration-150 hover:underline">Blog</a>
                 </div>
                 <div className="flex flex-row gap-8 h-8" ref={contactLinksRef}>
                     <a href="https://github.com/santikzz" className="hover:brightness-75 transition-all ease-linear duration-150 hidden md:flex">
